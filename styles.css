@@ -1,0 +1,211 @@
+/* -------general------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+:root {
+    --gris1: #222222;
+    --gris2: #333333;
+    --gris3: #444444;
+    --gris4: #666666;
+    --gris5: #252525;
+    --naraja: #FFA500;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    min-height: 100vh;
+    font-size: 1rem;
+    color: white;
+    background:var(--gris1);
+    background-size: cover;
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+/* a::before{
+
+}
+
+a::after{
+
+} */
+
+a:hover{
+    color: var(--naraja);
+    transition:600ms ease;
+}
+
+/*------- Navegation menu -------*/
+
+header{
+    position: flex;
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.logo{
+    padding-left: 100px;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    gap: 3rem;
+}
+
+header ul li{
+    list-style: none;
+}
+
+.togle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+/*------- body content -------*/
+section{
+    height: 150vh;
+    width: 100%;
+    display: flex;
+}
+
+/* ----------------- */
+.out_box_title{
+    background-color: var(--gris2);
+    width: 50%;
+    height: 30%;
+    padding: .4rem;
+    margin: auto;
+    text-align: center;
+    display: flex;
+}
+
+.main_title{
+    background-color: var(--gris5);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.main_title h1{
+    padding-top: 5%;
+    font-size: 40px;
+}
+.main_title h2{
+    padding-top: 8%;
+    font-size: 20px;
+}
+
+/* -------about---------- */
+
+.all_about{
+    width: 60%;
+    height: 100%;
+    background-color: var(--naraja);
+    display: flex;  
+}
+
+.about_box{
+    background-color: var(--gris2);
+    width: 90%;
+    height: 90%;
+    padding: .5rem;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.about_box2{
+    background-color: var(--gris5);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.title_about h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    padding-top: 3rem;
+}
+.des_about p{
+    font-size: 15px;
+    line-height: 2;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+}
+
+.contact_about{
+    background-color: var(--gris4);
+    width: 40%;
+    height: 100%;
+    display: flex;
+}
+
+
+/* --------skills--------- */
+
+
+/*--- footer ---*/
+footer{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+.contact_box{
+    background: rgb(255,165,0);
+    background: linear-gradient(0deg, rgba(255,165,0,1) 96%, rgba(34,34,34,1) 100%);
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+}
+
+.footer_title_box{
+    background-color: var(--gris2); 
+    width: 50%;
+    height: 100%;
+    padding: .4rem;
+    text-align: center;
+    display: flex;
+}
+
+.contact_title{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
