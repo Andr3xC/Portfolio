@@ -215,10 +215,17 @@ footer{
     display: flex;
 }
 
-.contact_title{
+.footer_title_box2{
     background-color: var(--gris2);
     height: 98%;
     width: 98%;
+    margin: auto;
+}
+
+.contact_title{
+    background-color: var(--gris2);
+    height: 100%;
+    width: 100%;
     text-align: center;
     text-transform: uppercase;
     margin: auto;
